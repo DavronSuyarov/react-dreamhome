@@ -32,9 +32,11 @@ function App() {
 
             <Route path='/about' element={<AboutPage />} />
 
-            <Route path='/properties' element={<Properties />} />
-            <Route path='/properties-map' element={<PropertiesMapPage />} />
-            <Route path='/properties-detail' element={<PropertyDetailPage />} />
+            <Route path='/proper'>
+              <Route path='' element={<Properties />} />
+              <Route path='map' element={<PropertiesMapPage />} />
+              <Route path='detail' element={<PropertyDetailPage />} />
+            </Route>
 
             <Route path='/agencies' element={<Agencies />} />
             <Route path='/agencies-detail' element={<AgenciesDetail />} />

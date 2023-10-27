@@ -231,9 +231,7 @@ const Properties = () => {
                     </div>
                     <div className='content'>
                       <h3 className='link-style-1'>
-                        <Link to='/properties-detail'>
-                          Gorgeous Apartment Building
-                        </Link>{' '}
+                        <Link to='detail'>Gorgeous Apartment Building</Link>{' '}
                       </h3>
                       <div className='text-address'>
                         <p className='p-12'>

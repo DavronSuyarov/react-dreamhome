@@ -9,7 +9,7 @@ export default [
   },
   {
     title: 'Properties',
-    path: '/properties',
+    path: '/proper',
   },
   {
     title: 'Agencies',
