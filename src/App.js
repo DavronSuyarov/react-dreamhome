@@ -29,26 +29,36 @@ function App() {
           <Navbar />
           <Routes>
             <Route path='/' element={<HomePages />} />
+
             <Route path='/about' element={<AboutPage />} />
+
+            <Route path='/properties' element={<Properties />} />
+            <Route path='/properties-map' element={<PropertiesMapPage />} />
+            <Route path='/properties-detail' element={<PropertyDetailPage />} />
+
             <Route path='/agencies' element={<Agencies />} />
             <Route path='/agencies-detail' element={<AgenciesDetail />} />
+
             <Route path='/agents' element={<Agents />} />
             <Route path='/agents-detail' element={<AgentsDetail />} />
+
+            <Route path='/pricing' element={<PricingPage />} />
+
             <Route path='/blogs' element={<Blogs />} />
             <Route path='/blog-detail' element={<BlogDetail />} />
-            <Route path='/contact' element={<Contact />} />
+
             <Route path='/user'>
               <Route path='' element={<Dashboard />} />
               <Route path='profile' element={<DashboardProfile />} />
               <Route path='review' element={<DashboardReview />} />
               <Route path='properties' element={<DashboardProperties />} />
             </Route>
+
+            <Route path='/contact' element={<Contact />} />
+
             <Route path='/faq' element={<Faq />} />
+
             <Route path='/not-found' element={<NotFound />} />
-            <Route path='/pricing' element={<PricingPage />} />
-            <Route path='/properties' element={<Properties />} />
-            <Route path='/properties-map' element={<PropertiesMapPage />} />
-            <Route path='/properties-detail' element={<PropertyDetailPage />} />
           </Routes>
           <Footer />
         </div>

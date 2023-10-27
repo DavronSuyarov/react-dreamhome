@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const PricingPage = () => {
   return (
@@ -9,10 +10,10 @@ const PricingPage = () => {
             <div className='col-lg-12'>
               <div className='title-inner style-detail'>
                 <div className='title-group fs-12'>
-                  <a className='home fw-6 text-color-3' href='index.html'>
+                  <Link className='home fw-6 text-color-3' to='/'>
                     Home
-                  </a>
-                  <span>Property Listing</span>
+                  </Link>
+                  <span>Pricing</span>
                 </div>
               </div>
             </div>

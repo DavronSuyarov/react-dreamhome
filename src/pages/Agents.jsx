@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Agents = () => {
   return (
@@ -9,10 +10,10 @@ const Agents = () => {
             <div className='col-lg-12'>
               <div className='title-inner style'>
                 <div className='title-group fs-12'>
-                  <a className='home fw-6 text-color-3' href='index.html'>
+                  <Link className='home fw-6 text-color-3' to='/'>
                     Home
-                  </a>
-                  <span>Property Listing</span>
+                  </Link>
+                  <span>Agents</span>
                 </div>
               </div>
             </div>
@@ -163,7 +164,7 @@ const Agents = () => {
                     <div className='content flex justify-space'>
                       <div className='inner'>
                         <h3 className='link-style-1'>
-                          <a href='agents-detail.html'>Leslie Alexander</a>
+                          <Link to='/agents-detail'>Leslie Alexander</Link>
                         </h3>
                         <p className='fs-12 text-color-2'>Commercial Broker</p>
                       </div>
