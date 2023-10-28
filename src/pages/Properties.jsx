@@ -235,7 +235,9 @@ const Properties = () => {
                       </h3>
                       <div className='text-address'>
                         <p className='p-12'>
-                          58 Hullbrook Road, Billesley, B13 0LA
+                          <Link to='map'>
+                            58 Hullbrook Road, Billesley, B13 0LA
+                          </Link>
                         </p>
                       </div>
                       <div className='money fs-18 fw-6 text-color-3'>
